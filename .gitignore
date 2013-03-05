@@ -16,6 +16,7 @@ wp-*
 *.php
 license.txt
 default.html
+.htaccess
 !500.php
 !.gitignore
 !wp-config.php
