@@ -12,7 +12,11 @@
 # http://kernel.org/pub/software/scm/git/docs/gitignore.html
 
 # Ignore everything in the root except the "wp-content" directory.
-/*
+wp-*
+*.php
+license.txt
+default.html
+!500.php
 !.gitignore
 !wp-config.php
 !wp-content/
@@ -42,3 +46,4 @@ wp-content/themes/*
 config/environments/development.php
 
 *.sw*
+.DS_Store
