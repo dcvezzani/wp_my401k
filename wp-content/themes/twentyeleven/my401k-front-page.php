@@ -31,6 +31,12 @@
     </style>
   <link rel="stylesheet" href="http://localhost:3637/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/ui.css"><link rel="stylesheet" href="http://localhost:3637/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css">
 <?php wp_head(); ?>
+
+  <style type="text/css">
+    html{
+      margin-top: 0 !important;
+    }
+  </style>
 </head>
 
 <body>
